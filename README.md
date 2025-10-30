@@ -94,7 +94,7 @@
 
 <h2>Requirements</h2>
 <ul>
-  <li>iOS 14.0 or later</li>
+  <li>iOS 16.0 or later</li>
   <li>Camera access (for scanning)</li>
   <li>Microphone access (for tuner)</li>
   <li>Internet connection (for recording search)</li>
