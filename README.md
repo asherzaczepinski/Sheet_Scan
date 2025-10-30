@@ -1,129 +1,127 @@
 Sheet Scan
 The all-in-one practice companion for beginner musicians
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-iOS-lightgrey?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/Swift-5.0-orange?style=for-the-badge&logo=swift" alt="Swift">
-  <img src="https://img.shields.io/badge/SwiftUI-blue?style=for-the-badge" alt="SwiftUI">
-</p>
+<p align="center"> <img src="https://img.shields.io/badge/Platform-iOS-lightgrey?style=for-the-badge"/> <img src="https://img.shields.io/badge/Swift-5.0-orange?style=for-the-badge&logo=swift"/> <img src="https://img.shields.io/badge/SwiftUI-blue?style=for-the-badge"/> </p>
+
+Sheet Scan brings all the essential practice tools beginners need into one intuitive app.
+Instead of jumping between tuner apps, YouTube searches, scale sheets, and confusing metronomes, students get one reliable place to learn and practice correctly.
+
+Available now on the App Store.
 
 Overview
-Sheet Scan is a mobile app that combines and upgrades all the essential practice tools beginner musicians need into one simple experience. Designed to help students in band and orchestra practice the right way without frustration, Sheet Scan makes it easy to find recordings, stay in time, tune accurately, and master scales.
 
-Available now on the App Store!
+Sheet Scan is built to help students in band and orchestra:
 
+Find quality recordings for their exact instrument
+
+Understand rhythm visually
+
+Tune accurately with instrument-specific guidance
+
+Learn scales with clear accidentals and fingerings
+
+It bridges the gap between practice frustration and confident progress.
 
 Features
 Smart Recording Finder
 
-Take a photo of your sheet music and instantly find high-quality, instrument-specific recordings.
+Take a photo of your sheet music to instantly find high-quality, instrument-specific recordings.
 
+Optical music recognition using Google Vision API + Groq LLM
 
-Intelligent Recognition: Uses Google Vision API and Groq's LLM to identify pieces from sheet music photos
-Accurate Results: Custom ranking system scores recordings by title, composer, and duration match
-Instrument-Specific: Finds performances tailored to your instrument via YouTube Data API
-Save Time: No more sorting through mislabeled or low-quality videos
+Scoring system based on title, composer, and duration match
+
+Filters by instrument via YouTube Data API
+
+Avoids low-quality or mislabeled videos
 
 Visual Metronome
 
-See and feel the rhythm with an intuitive visual metronome designed for beginners.
+A rhythm-first metronome designed to be understood at a glance.
 
+Beat-by-beat visual lights
 
-Beat Visualization: Lights up each beat in real-time
-Subdivision Display: Shows eighth notes, triplets, and more
-Build Timing Skills: Develop the rhythm foundation critical for playing with others
+Subdivisions for eighths, triplets, and more
+
+Helps beginners internalize rhythm and timing
 
 Smart Tuner
 
-A custom tuner that not only detects pitch, but teaches you how to fix it.
+A tuner that teaches players how to adjust, not just what pitch they’re on.
 
+Supports 17 common band and orchestra instruments
 
-17 Instruments Supported: Strings, brass, and woodwinds
-Personalized Advice: Instrument-specific guidance on how to adjust your tuning
-Real-time Feedback: Microphone-based pitch detection with clear visual indicators
-Learn to Listen: Develop your ear and tune confidently
+Real-time mic-based pitch detection
+
+Clear visual pitch guidance
+
+Instrument-specific tuning tips (ex: “push in barrel” for clarinet)
 
 Enhanced Scales
 
-Master scales with automatic fingering diagrams and visual accidentals.
+Automatic scale sheets that make learning fast and clear.
 
+Fingering diagrams generated through LilyPond + Python
 
-Auto-Generated Fingerings: Using LilyPond and Python scripts
-Clear Markings: Every sharp and flat is highlighted
-Multiple Octaves: Practice patterns across your instrument's range
-Build Foundation: Learn key signatures and develop technique for advanced pieces
+Accidentals highlighted for clarity
 
+Multiple octave options
+
+Designed to reinforce theory and technique
 
 The Story Behind Sheet Scan
 
-From frustration to innovation
+I’ve played clarinet since fourth grade, and early practice was often frustrating.
+Most beginner tools felt overwhelming: tuners full of symbols, metronomes without visual cues, and hours spent hunting for decent recordings. Many days I wasn’t even sure if I was practicing correctly.
 
-I've been playing clarinet since 4th grade, and those early years were rough. I'd sit there with random tuner apps covered in weird symbols I didn't understand, metronomes that felt impossible to follow, and YouTube recordings so old and out of tune they made everything sound worse. Half the time, I didn't even know if I was practicing right. I'd spend hours writing sharps and flats into my scales instead of actually learning how to make a better sound. It was frustrating enough that there were moments I seriously thought about quitting.
-That's really where the idea for Sheet Scan came from—not some big tech vision, but from the real frustration of being a kid trying to get better at music with tools that didn't actually help. I wanted something that could explain rhythm visually, help me tune my instrument in a way that made sense, and connect me to good recordings so I could hear what I was aiming for.
+Sheet Scan came from wanting a tool I wish I had back then — something simple, clear, and actually helpful for young musicians learning the fundamentals.
 
 Technology Stack
-CategoryTechnologyPlatformiOS (Swift, SwiftUI)Computer VisionGoogle Vision APIAI/MLGroq LLMMediaYouTube Data APIMusic NotationLilyPond, PythonAudio ProcessingAVFoundation
-
+Category	Technology
+Platform	Swift, SwiftUI (iOS)
+Computer Vision	Google Vision API
+AI / Recognition	Groq LLM
+Media	YouTube Data API
+Music Notation	LilyPond, Python
+Audio Processing	AVFoundation
 Supported Instruments
-<table>
-  <tr>
-    <td><b>Woodwinds</b></td>
-    <td>Alto Saxophone, Tenor Saxophone, Clarinet, Bass Clarinet, Flute, Oboe, Bassoon</td>
-  </tr>
-  <tr>
-    <td><b>Brass</b></td>
-    <td>Trumpet, French Horn, Trombone, Euphonium, Tuba</td>
-  </tr>
-  <tr>
-    <td><b>Strings</b></td>
-    <td>Violin, Viola, Cello, Double Bass</td>
-  </tr>
-  <tr>
-    <td><b>Other</b></td>
-    <td>Piano</td>
-  </tr>
-</table>
-
-Installation
-Sheet Scan is available on the App Store for iOS devices.
-
+Family	Instruments
+Woodwinds	Alto Sax, Tenor Sax, Clarinet, Bass Clarinet, Flute, Oboe, Bassoon
+Brass	Trumpet, Horn, Trombone, Euphonium, Tuba
+Strings	Violin, Viola, Cello, Double Bass
+Other	Piano
 How It Works
-1. Scan Your Music
-   └─ Take a photo of your sheet music showing the title and composer
 
-2. Get Recordings
-   └─ Instantly receive ranked, high-quality performance videos
+Scan your sheet music
 
-3. Practice Smart
-   └─ Use the visual metronome, tuner, and scales to build your skills
+Instantly get curated performance recordings
 
-4. Track Progress
-   └─ History feature keeps all your scans organized
+Practice using the visual metronome, tuner, and scale tools
+
+Track scans and progress over time
 
 Requirements
 
 iOS 14.0 or later
-Camera access (for scanning sheet music)
-Microphone access (for tuner functionality)
+
+Camera (for sheet scanning)
+
+Microphone (for tuner)
+
 Internet connection (for recording search)
 
+Privacy
 
-Privacy & Permissions
-Sheet Scan requires the following permissions:
-PermissionPurposeCameraTo scan sheet musicPhotosTo choose existing photos of sheet musicMicrophoneFor tuner pitch detectionInternetTo search for recordings and fetch results
+Photos are processed securely
 
-Your privacy matters: Sheet music photos are processed securely and are not stored on external servers.
+Sheet music images are not stored on external servers
 
+No data is shared without permission
 
-Support
-Having issues or have feedback? We'd love to hear from you!
+Contact & Support
+
+Questions or feedback?
 Email: asherzac2020@gmail.com
 
-License
-Copyright © 2025 Sheet Scan. All rights reserved.
+Made by a student musician, for student musicians.
 
-<p align="center">
-  <b>Made by a musician, for musicians</b>
-</p>
-<p align="center">
-  Star this repo if Sheet Scan helped you practice better!
-</p>
+If this project helped you, consider giving it a star.
