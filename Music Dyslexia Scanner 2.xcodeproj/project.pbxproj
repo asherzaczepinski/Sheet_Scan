@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2389713D2DCDB747002FE642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238971272DCDB745002FE642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2389712E2DCDB745002FE642;
+			remoteInfo = "Music Dyslexia Scanner 2";
+		};
+		238971472DCDB747002FE642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238971272DCDB745002FE642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2389712E2DCDB745002FE642;
+			remoteInfo = "Music Dyslexia Scanner 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2389712F2DCDB745002FE642 /* Sheet Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sheet Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2389713C2DCDB747002FE642 /* Sheet Scan.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sheet Scan.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		238971462DCDB747002FE642 /* Sheet Scan.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sheet Scan.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		236E6A462DD516F100642F48 /* Exceptions for "Music Dyslexia Scanner 2UITests" folder in "Music Dyslexia Scanner 2Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Music_Dyslexia_Scanner_2Tests.swift,
+			);
+			target = 2389713B2DCDB747002FE642 /* Music Dyslexia Scanner 2Tests */;
+		};
+		236E6A472DD516F100642F48 /* Exceptions for "Music Dyslexia Scanner 2UITests" folder in "Music Dyslexia Scanner 2UITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Music_Dyslexia_Scanner_2Tests.swift,
+			);
+			target = 238971452DCDB747002FE642 /* Music Dyslexia Scanner 2UITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		238971312DCDB745002FE642 /* Music Dyslexia Scanner 2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Music Dyslexia Scanner 2";
+			sourceTree = "<group>";
+		};
+		2389713F2DCDB747002FE642 /* Music Dyslexia Scanner 2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Music Dyslexia Scanner 2Tests";
+			sourceTree = "<group>";
+		};
+		238971492DCDB747002FE642 /* Music Dyslexia Scanner 2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				236E6A462DD516F100642F48 /* Exceptions for "Music Dyslexia Scanner 2UITests" folder in "Music Dyslexia Scanner 2Tests" target */,
+				236E6A472DD516F100642F48 /* Exceptions for "Music Dyslexia Scanner 2UITests" folder in "Music Dyslexia Scanner 2UITests" target */,
+			);
+			path = "Music Dyslexia Scanner 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2389712C2DCDB745002FE642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238971392DCDB747002FE642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238971432DCDB747002FE642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238971262DCDB745002FE642 = {
+			isa = PBXGroup;
+			children = (
+				238971312DCDB745002FE642 /* Music Dyslexia Scanner 2 */,
+				2389713F2DCDB747002FE642 /* Music Dyslexia Scanner 2Tests */,
+				238971492DCDB747002FE642 /* Music Dyslexia Scanner 2UITests */,
+				238971302DCDB745002FE642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238971302DCDB745002FE642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2389712F2DCDB745002FE642 /* Sheet Scan.app */,
+				2389713C2DCDB747002FE642 /* Sheet Scan.xctest */,
+				238971462DCDB747002FE642 /* Sheet Scan.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2389712E2DCDB745002FE642 /* Music Dyslexia Scanner 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238971502DCDB747002FE642 /* Build configuration list for PBXNativeTarget "Music Dyslexia Scanner 2" */;
+			buildPhases = (
+				2389712B2DCDB745002FE642 /* Sources */,
+				2389712C2DCDB745002FE642 /* Frameworks */,
+				2389712D2DCDB745002FE642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				238971312DCDB745002FE642 /* Music Dyslexia Scanner 2 */,
+			);
+			name = "Music Dyslexia Scanner 2";
+			packageProductDependencies = (
+			);
+			productName = "Music Dyslexia Scanner 2";
+			productReference = 2389712F2DCDB745002FE642 /* Sheet Scan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2389713B2DCDB747002FE642 /* Music Dyslexia Scanner 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238971532DCDB747002FE642 /* Build configuration list for PBXNativeTarget "Music Dyslexia Scanner 2Tests" */;
+			buildPhases = (
+				238971382DCDB747002FE642 /* Sources */,
+				238971392DCDB747002FE642 /* Frameworks */,
+				2389713A2DCDB747002FE642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2389713E2DCDB747002FE642 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2389713F2DCDB747002FE642 /* Music Dyslexia Scanner 2Tests */,
+			);
+			name = "Music Dyslexia Scanner 2Tests";
+			packageProductDependencies = (
+			);
+			productName = "Music Dyslexia Scanner 2Tests";
+			productReference = 2389713C2DCDB747002FE642 /* Sheet Scan.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		238971452DCDB747002FE642 /* Music Dyslexia Scanner 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238971562DCDB747002FE642 /* Build configuration list for PBXNativeTarget "Music Dyslexia Scanner 2UITests" */;
+			buildPhases = (
+				238971422DCDB747002FE642 /* Sources */,
+				238971432DCDB747002FE642 /* Frameworks */,
+				238971442DCDB747002FE642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				238971482DCDB747002FE642 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				238971492DCDB747002FE642 /* Music Dyslexia Scanner 2UITests */,
+			);
+			name = "Music Dyslexia Scanner 2UITests";
+			packageProductDependencies = (
+			);
+			productName = "Music Dyslexia Scanner 2UITests";
+			productReference = 238971462DCDB747002FE642 /* Sheet Scan.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238971272DCDB745002FE642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2389712E2DCDB745002FE642 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					2389713B2DCDB747002FE642 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2389712E2DCDB745002FE642;
+					};
+					238971452DCDB747002FE642 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2389712E2DCDB745002FE642;
+					};
+				};
+			};
+			buildConfigurationList = 2389712A2DCDB745002FE642 /* Build configuration list for PBXProject "Music Dyslexia Scanner 2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238971262DCDB745002FE642;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 238971302DCDB745002FE642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2389712E2DCDB745002FE642 /* Music Dyslexia Scanner 2 */,
+				2389713B2DCDB747002FE642 /* Music Dyslexia Scanner 2Tests */,
+				238971452DCDB747002FE642 /* Music Dyslexia Scanner 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2389712D2DCDB745002FE642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2389713A2DCDB747002FE642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238971442DCDB747002FE642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2389712B2DCDB745002FE642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238971382DCDB747002FE642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238971422DCDB747002FE642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2389713E2DCDB747002FE642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2389712E2DCDB745002FE642 /* Music Dyslexia Scanner 2 */;
+			targetProxy = 2389713D2DCDB747002FE642 /* PBXContainerItemProxy */;
+		};
+		238971482DCDB747002FE642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2389712E2DCDB745002FE642 /* Music Dyslexia Scanner 2 */;
+			targetProxy = 238971472DCDB747002FE642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2389714E2DCDB747002FE642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GM4SGZMSPY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2389714F2DCDB747002FE642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GM4SGZMSPY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238971512DCDB747002FE642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Dyslexia-Scanner-2-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs to access your camera to scan sheet music, allowing you to easily identify sharps and flats in musical notation.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need access to microphone to use tuner!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access to save your sheet music!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need access to save your sheet music!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asherzaczepinski.sheetscan;
+				PRODUCT_NAME = "Sheet Scan";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		238971522DCDB747002FE642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Dyslexia-Scanner-2-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs to access your camera to scan sheet music, allowing you to easily identify sharps and flats in musical notation.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need access to microphone to use tuner!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access to save your sheet music!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need access to save your sheet music!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asherzaczepinski.sheetscan;
+				PRODUCT_NAME = "Sheet Scan";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		238971542DCDB747002FE642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asherzaczepinski.Music-Dyslexia-Scanner-2Tests";
+				PRODUCT_NAME = "Sheet Scan";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Dyslexia Scanner 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music Dyslexia Scanner 2";
+			};
+			name = Debug;
+		};
+		238971552DCDB747002FE642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asherzaczepinski.Music-Dyslexia-Scanner-2Tests";
+				PRODUCT_NAME = "Sheet Scan";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Dyslexia Scanner 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music Dyslexia Scanner 2";
+			};
+			name = Release;
+		};
+		238971572DCDB747002FE642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Dyslexia-Scanner-2UITests-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access to tune instruments!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need this to have users upload and save sheet music";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need this to have users upload and save sheet music";
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asherzaczepinski.Music-Dyslexia-Scanner-2UITests";
+				PRODUCT_NAME = "Sheet Scan";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Music Dyslexia Scanner 2";
+			};
+			name = Debug;
+		};
+		238971582DCDB747002FE642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Dyslexia-Scanner-2UITests-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access to tune instruments!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need this to have users upload and save sheet music";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need this to have users upload and save sheet music";
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asherzaczepinski.Music-Dyslexia-Scanner-2UITests";
+				PRODUCT_NAME = "Sheet Scan";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Music Dyslexia Scanner 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2389712A2DCDB745002FE642 /* Build configuration list for PBXProject "Music Dyslexia Scanner 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2389714E2DCDB747002FE642 /* Debug */,
+				2389714F2DCDB747002FE642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238971502DCDB747002FE642 /* Build configuration list for PBXNativeTarget "Music Dyslexia Scanner 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238971512DCDB747002FE642 /* Debug */,
+				238971522DCDB747002FE642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238971532DCDB747002FE642 /* Build configuration list for PBXNativeTarget "Music Dyslexia Scanner 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238971542DCDB747002FE642 /* Debug */,
+				238971552DCDB747002FE642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238971562DCDB747002FE642 /* Build configuration list for PBXNativeTarget "Music Dyslexia Scanner 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238971572DCDB747002FE642 /* Debug */,
+				238971582DCDB747002FE642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238971272DCDB745002FE642 /* Project object */;
+}
